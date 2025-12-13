@@ -1,0 +1,21 @@
+# Ignorar arquivos do sistema
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignorar o dataset de imagens originais (pois o usuário deve baixar)
+taco_dataset/data/
+taco_dataset/masks/
+
+
+
+
+
+
+# Ignorar pesos de modelos grandes (opcional, se forem > 100MB)
+*.pth
+*.pt
+
+# Ignorar ambientes virtuais
+venv/
+env/
